@@ -127,7 +127,7 @@
                                         class="fa-solid fa-user-tie space"></i>Clientes</a>
                             </li>
 
-                            <li><a href="?view=catalogo" class="spaces"><i class="fa-solid fa-book space"></i>Catalago</a>
+                            <li><a href="?view=catalogo" class="spaces"><i class="fa-solid fa-book space"></i>Catalogo</a>
                             </li>
                         </ul>
                     </nav>
