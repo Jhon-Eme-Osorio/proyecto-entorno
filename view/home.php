@@ -149,7 +149,9 @@
                                                     </div>';
                             }
                             ?>
+                            
                             <ul class="linea">
+                            <b class="aling">Reportes En PDF</b><br><br>
                                 <li>
                                     <?php $cliente = $this->model->listaCliente(); ?>
                                     <a href="?view=reporteCliente" <?php echo (count($cliente) !== 0) ? 'target="_blank"' : ''; ?>>
@@ -173,29 +175,6 @@
                                         </div>
                                     </a>
                                 </li>
-                                <!--
-                                <li>
-                                    <a href="?view=categoria">
-                                        <div class="col-3">
-                                            <div class="card border-0 shadow">
-                                                <div class="card-body d-flex align-items-center">
-                                                    <img src="resources/img/categoria.png" alt="" class="dash">
-                                                    <div class="aling">
-                                                        <div>Categorias</div>
-                                                        <?php $categorias = 0;
-                                                        foreach ($this->model->dashboardCategorias() as $key): ?>
-                                                            <?php $categorias++; ?>
-                                                        <?php endforeach; ?>
-                                                        <b>
-                                                            <?php echo $categorias; ?>
-                                                        </b>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                                        -->
                                 <li>
                                     <?php $libro = $this->model->listaLibros(); ?>
                                     <a href="?view=reporteLibro" <?php echo (count($libro) !== 0) ? 'target="_blank"' : ''; ?>>
